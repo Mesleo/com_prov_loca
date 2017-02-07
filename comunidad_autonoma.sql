@@ -1,8 +1,16 @@
+-- Created by Javier Benítez
+
+--
+-- Estructura de tabla para la tabla `comunidad_autonoma`
+--
 CREATE TABLE comunidad_autonoma (
   id INTEGER (4) NOT NULL,
   com_autonoma varchar(100) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
+--
+-- Volcado de datos para la tabla `comunidad_autonoma`
+--
 INSERT INTO comunidad_autonoma (id, com_autonoma)
 VALUES
 	(1,'Andalucía'),

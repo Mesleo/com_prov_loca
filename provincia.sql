@@ -1,7 +1,8 @@
+-- Created by Javier Benítez
+
 --
 -- Estructura de tabla para la tabla `provincia`
 --
-
 CREATE TABLE IF NOT EXISTS provincia (
   codigo_provincia int(11) NOT NULL,
   com_autonoma_id int(11) DEFAULT NULL,
@@ -13,7 +14,6 @@ CREATE TABLE IF NOT EXISTS provincia (
 --
 -- Volcado de datos para la tabla `provincia`
 --
-
 INSERT INTO provincia (codigo_provincia, provincia, com_autonoma_id) VALUES
 (1, 'Álava', 16),
 (2, 'Albacete', 8),

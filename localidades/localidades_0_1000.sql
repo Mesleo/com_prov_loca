@@ -1,3 +1,21 @@
+-- Created by Javier Benítez
+
+--
+-- Estructura de tabla para la tabla `localidad`
+--
+CREATE TABLE IF NOT EXISTS localidad (
+  id int(11) NOT NULL AUTO_INCREMENT,
+  cod_provincia int(11) DEFAULT NULL,
+  localidad varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  codigo_municipio varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  codigo_postal varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  PRIMARY KEY (id),
+  KEY IDX_4F68E0107B0ADDA9 (cod_provincia)
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci AUTO_INCREMENT=32914 ;
+
+--
+-- Volcado de datos para la tabla `localidad`
+--
 INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('01','001','01240','ALEGRIA-DULANTZI');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('15','021','15175','MONTE DE CAÑAS (O)');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('18','902','18658','MELEGIS');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('27','031','27420','CASAS DE ABAIXO (AS)');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('32','041','32897','CARREIRAS');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('35','016','35014','PALMAS GRAN CANARIA (LAS)');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('41','031','41899','VALDEFLORES');
 INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('01','001','01193','EGILETA');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('15','021','15175','PENEDO');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('18','902','18658','RESTABAL');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('27','031','27420','PEREIRA');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('32','041','32897','CONCHAS (AS)');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('35','016','35013','PALMAS GRAN CANARIA (LAS)');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('41','031','41890','VALDEFLORES');
 INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('01','002','01468','ALORIA');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('15','021','15175','RUEIRO (O)');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('18','902','18658','SALERES');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('27','031','27420','PIÑEIRA');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('32','041','32897','GAIAS');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('35','016','35019','PALMAS GRAN CANARIA (LAS)');	INSERT INTO localidad (cod_provincia,codigo_municipio,codigo_postal,localidad) VALUES ('41','032','41370','CAZALLA DE LA SIERRA');
