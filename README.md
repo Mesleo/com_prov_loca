@@ -1,6 +1,6 @@
 <h1>Scripts Comunidades Provincias y Municipios de España</h1>
 <h2>Scripts necesarios para las tablas de una base de datos de comunidades autónomas, provincias y localidades españolas</h2>
-<p>El repositorio consta de tres partes fundamentalmente</p>
+<p>El repositorio consta de tres partes fundamentalmente:</p>
 <ol>
 <li>Script comunidades autónomas</li>
 <li>Script provincias</li>
